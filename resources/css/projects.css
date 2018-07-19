@@ -72,6 +72,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
+  align-items: center;
 }
 
 .current-buttons {
@@ -141,4 +142,8 @@ img {
 
 .project:hover {
   background-color: #7d7d7d;
+}
+
+.current-button-section {
+  font-size: 3.5vh;
 }
