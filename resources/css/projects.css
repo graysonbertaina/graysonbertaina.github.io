@@ -142,6 +142,7 @@ img {
 
 .project:hover {
   background-color: #7d7d7d;
+  transition: 0.5s;
 }
 
 .current-button-section {
