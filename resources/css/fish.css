@@ -1,0 +1,151 @@
+html {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+/* Header */
+
+header {
+  height: 10vh;
+  background-color: #282828;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  width: 10vw;
+  justify-content: center;
+  display: flex;
+  font-size: 2.5vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: #555555;
+}
+
+/* Landing */
+
+.landing-container {
+  height: 90vh;
+  background-image: url("../../resources/images/fishing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron {
+  margin-top: 15vh;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3vh;
+}
+
+.jumbotron h1 {
+  font-size: 7vh;
+}
+
+.jumbotron h2 {
+  font-size: 4vh;
+  margin-top: 2vh;
+}
+
+.current-button-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  align-items: center;
+}
+
+.current-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.current-button {
+  font-size: 3vh;
+  border: 0.25vh solid white;
+  padding: 2vh;
+  margin: 2vh 2vw;
+}
+
+.current-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Fish */
+
+.fishes-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fishes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.fish {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25vw;
+  color: black;
+  background-color: #282828;
+  padding: 2vh;
+  margin: 2vh;
+  color: white;
+  line-height: 1.2;
+}
+
+.fish .fish-common h1 {
+  font-size: 3.5vh;
+}
+.fish .fish-common h2 {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+}
+
+.fish .fish-scientific h1 {
+  font-size: 3.5vh;
+}
+.fish .fish-scientific h2 {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+  font-style: italic;
+}
+
+.fish .family h1 {
+  font-size: 3.5vh;
+}
+.fish .family h2 {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+}
+
+.fish .guess h1 {
+  font-size: 3.5vh;
+}
+.fish .guess h2 {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+}
