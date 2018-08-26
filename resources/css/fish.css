@@ -169,6 +169,98 @@ header a:hover {
 }
 
 .food-web img {
-  width: 70vw;
+  height: 85vh;
   border: 2vh blue solid;
+}
+
+
+/* Catfish */
+
+.catfish-section {
+  display: flex;
+  background: -webkit-linear-gradient(-45deg, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+  justify-content: center;
+  margin-top: 10vh;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.catfish-title {
+  display: flex;
+  font-size: 5vh;
+  margin-top: 4vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.catfish-title h1,
+.catfish-title img {
+  margin: 2vh;
+}
+
+.catfishinfos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catfishinfo {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 2vh;
+  margin: 2vh;
+  background-color: #2106A6;
+}
+
+.infotitle {
+  font-size: 3.5vh;
+  margin-bottom: 1vh;
+}
+
+.info-content {
+  font-size: 2vh;
+  line-height: 1.2;
+}
+
+.catfishinfo ul {
+  list-style: disc;
+  margin-left: 2vw;
+}
+
+.catfishinfo em {
+  font-style: italic;
+}
+
+.diagram-section {
+  display: flex;
+  justify-content: center;
+}
+
+.diagrams {
+  flex-direction: column;
+}
+
+.diagram img {
+  width: 70vw;
+}
+
+.diagram {
+  margin: 2vh;
+}
+
+/* Footer */
+
+footer {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
+}
+
+footer h1 {
+  margin: 2vh;
 }
