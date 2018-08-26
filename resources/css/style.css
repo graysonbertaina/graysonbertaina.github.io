@@ -123,3 +123,17 @@ header a:hover {
   background-color: #282828;
   background-color: #882829;
 }
+
+/* Footer */
+
+footer {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
+}
+
+footer h1 {
+  margin: 2vh;
+}

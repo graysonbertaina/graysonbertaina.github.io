@@ -148,3 +148,17 @@ img {
 .current-button-section {
   font-size: 3.5vh;
 }
+
+/* Footer */
+
+footer {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
+}
+
+footer h1 {
+  margin: 2vh;
+}
