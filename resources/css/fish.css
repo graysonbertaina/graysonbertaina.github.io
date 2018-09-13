@@ -169,7 +169,7 @@ header a:hover {
 }
 
 .food-web img {
-  height: 85vh;
+  height: 90vh;
   border: 2vh blue solid;
 }
 
@@ -249,6 +249,45 @@ header a:hover {
 
 .diagram {
   margin: 2vh;
+}
+
+/* Common and scientific */
+
+.species-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.speciesmore {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.species {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  background-color: #282828;
+  margin: 2vh;
+  width: 15vw;
+  line-height: 1.2;
+  font-size: 2.3vh;
+}
+
+.section-title {
+  font-size: 5vh;
+  text-align: center;
+  margin: 2vh auto;
+  color: black;
+  margin-top: 8vh;
+}
+
+.species-scientific {
+  font-style: italic;
 }
 
 /* Footer */
