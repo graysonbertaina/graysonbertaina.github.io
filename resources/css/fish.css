@@ -94,6 +94,7 @@ header a:hover {
 .fishes-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .fishes {
@@ -288,6 +289,13 @@ header a:hover {
 
 .species-scientific {
   font-style: italic;
+}
+
+.fish-title {
+  font-size: 5vh;
+  color: black;
+  text-align: center;
+  margin-top: 5vh;
 }
 
 /* Footer */
